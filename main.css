@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: noe;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cv {
+    border-style: solid;
+    margin: 1em;
+    border-width: 0.1em;
+    border-radius: 1em;
+}
+
+.datos .fotocv {
+    border-radius: 1em;
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+    margin: 0.5em
+}
+
+.datos {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.datos h1 {
+    font-size: 4em;
+    padding: 0.5em;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.datos ul {
+    padding: 1em;
+    list-style: none;
+}
+
+.datos ul li span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.exp h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+
+.exp h3 {
+    margin-left: 5em;
+    font-size: 2em;
+    text-transform: capitalize
+}
+
+.exp .datosemp {
+    margin-left: 4em;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.exp .puestos {
+    margin-left: 4em;
+    font-size: 1em;
+    text-transform: capitalize;
+    list-style: circle;
+}
+
+.educ h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5em;
+}
+
+.educ h3 {
+    margin-left: 5em;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.educ .secu {
+    margin-left: 4em;
+    font-size: 1em;
+    text-transform: capitalize;
+    list-style: circle;
+}
+
+.educ .cursos {
+    margin-left: 4em;
+    font-size: 1em;
+    text-transform: capitalize;
+    list-style: circle;
+}
+
+.educ {
+    padding: 0 1em 1em 1em;
+}
