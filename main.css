@@ -63,7 +63,7 @@
 
 .exp .datosemp {
     margin-left: 4em;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-transform: capitalize;
     font-weight: bolder;
     list-style: none;
@@ -71,7 +71,7 @@
 
 .exp .puestos {
     margin-left: 4em;
-    font-size: 1em;
+    font-size: 1.5em;
     text-transform: capitalize;
     list-style: circle;
 }
